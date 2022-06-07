@@ -1,0 +1,112 @@
+/* main css */
+html, body {
+    width: 100%;
+    height: 100%;
+}
+.bx-wrapper, .bx-viewport, .slider{
+    width: 100%;
+    height: 100%;
+}
+.background_1{
+    margin-top: 60px;
+    width: 100%;
+    height: 100%;
+    background: url("../images/a.jpg") no-repeat;
+    background-size: cover;
+}
+.background_2{
+    margin-top: 60px;
+    width: 100%;
+    height: 100%;
+    background: url("../images/b.jpg") no-repeat;
+    background-size: cover;
+}
+.background_3{
+    margin-top: 60px;
+    width: 100%;
+    height: 100%;
+    background: url("../images/f.jpg") no-repeat;
+    background-size: cover;
+}
+.background_4{
+    margin-top: 60px;
+    width: 100%;
+    height: 100%;
+    background: url("../images/d.jpg") no-repeat;
+    background-size: cover;
+}
+.background_5{
+    margin-top: 60px;
+    width: 100%;
+    height: 100%;
+    background: url("../images/j.jpg") no-repeat;
+    background-size: cover;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background: url("../images/16.png");
+    position: absolute;
+    top: 0;
+    z-index: 10;
+}
+.contents{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-left: -174px;
+    margin-top: -109px;
+    z-index: 20;
+    text-align: center;
+}
+.contents_name{
+    font-size: 64px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 25px;
+}
+.contents_project{
+    font-size: 25px; 
+    font-weight: bold;
+    color: white; 
+    margin-bottom: 50px;  
+}
+.contents_hash{
+    border-radius: 50px;
+    font-size: 25px; 
+    font-weight: bold;
+    color: white; 
+    margin-bottom: 25px;  
+}
+
+/* about css */
+.about-back1{
+    width: 50%;
+    height: 49%;
+    background-size: 100%;
+    background: url("../images/solo.jpg");
+    /* background-size: cover; */
+}
+/* recommend css */
+
+.sam{
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 10px;
+    width: 15%;
+    height: 50%;
+    border-radius: 0%;
+    background-size: 100%;
+    border: 1px solid white;
+    background: url("../images/sam.jpg");  
+}
+.men{
+    background-color: antiquewhite;
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 18%;
+    width: 60%;
+    height: 50%;
+    border-radius: 2%;
+    border: 1px solid white
+}
